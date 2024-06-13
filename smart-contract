@@ -19,19 +19,6 @@ pragma solidity ^0.8.0;
 contract MyToken {
 
     // public variables here
-    /*struct Token{
-        string token_name = "Hello";
-        string token_abbrv = "H";
-        uint256 total_supply = 0;
-    }
-    Token[] public Token;
-    function create_Token(string memory name, string memory abbrv, uint256 supply) public {
-        Token memory New_Token = Token(name, abbrv, supply);
-        tokens.push(New_Token);
-    }
-    create_Token("Raj", "R", 1000);
-    create_Token("Sohit", "S", 3500);
-    create_Token("Harry", "H", 2000); */
 
     string public token_name;
     string public token_abbrv;
